@@ -1,10 +1,10 @@
-# 🚚 Supply Chain Analysis — Late Delivery Prediction
+# Supply Chain Analysis — Late Delivery Prediction
 
 An end-to-end data science project analysing 180,519 real supply chain orders to uncover delivery bottlenecks and build a machine learning model that predicts late deliveries before they happen.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To answer two connected business questions:
 1. **Diagnostic** — Where and why are deliveries running late? (shipping mode, region, product category)
@@ -12,7 +12,7 @@ To answer two connected business questions:
 
 ---
 
-## 🗄️ Dataset
+## Dataset
 
 **Source:** [DataCo Supply Chain Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis) — Kaggle
 
@@ -25,7 +25,7 @@ To answer two connected business questions:
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 1. **Over half of all orders arrive late** — the overall late delivery rate is **57.28%**, a significant operational issue affecting the majority of shipments.
 2. **First Class shipping shows a 100% late delivery rate — but this reflects an unrealistic scheduling commitment, not poor carrier performance.** All 27,814 First Class orders are scheduled for just 1 day of shipment, while actual shipping time across the dataset averages 3.5 days. This points to a root-cause SLA problem rather than a fulfillment failure — the business is setting a delivery promise operations cannot realistically meet.
@@ -36,7 +36,7 @@ To answer two connected business questions:
 
 ---
 
-## 🛠️ Skills & Techniques Demonstrated
+## Skills & Techniques Demonstrated
 
 | Category | Techniques used |
 |---|---|
@@ -51,7 +51,7 @@ To answer two connected business questions:
 
 ---
 
-## 📊 Business KPI Summary
+## Business KPI Summary
 
 ```
 ==================================================
@@ -68,7 +68,7 @@ Avg Profit Margin (%) : 10.83
 
 ---
 
-## 🤖 Model Comparison
+## Model Comparison
 
 | Model | Accuracy | ROC-AUC |
 |---|---|---|
@@ -80,7 +80,7 @@ Avg Profit Margin (%) : 10.83
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 - How to build a complete data science pipeline from raw CSV to a working predictive model — cleaning, feature engineering, EDA, modeling, and evaluation as connected stages rather than isolated exercises.
 - The importance of comparing multiple models rather than committing to one algorithm — Random Forest's advantage over Logistic Regression only became clear through direct side-by-side ROC-AUC comparison.
@@ -91,7 +91,7 @@ Avg Profit Margin (%) : 10.83
 
 ---
 
-## 🚀 How to Run This Project
+## How to Run This Project
 
 1. Clone this repository
 2. Install dependencies: `pip install pandas numpy matplotlib seaborn scikit-learn`
@@ -101,13 +101,11 @@ Avg Profit Margin (%) : 10.83
 
 ---
 
-## 🙋 About
+## About
 
-Built by **[Your Name]** as part of a data analyst portfolio project.
+Built by **[Atharv Dhole]** as part of a data analyst portfolio project.
 
-- 🔗 LinkedIn: [your-linkedin-url]
-- 📧 Email: your@email.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/atharv-dhole/
+- 📧 Email: atharvdhole22@gmail.com
 
 ---
-
-*If you found this useful, please ⭐ star the repository!*
